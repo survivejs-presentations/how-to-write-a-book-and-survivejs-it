@@ -316,10 +316,10 @@ export default class Slides extends React.Component {
             </Heading>
             <Markdown>
           {`
-* [GitHub](https://github.com/survivejs/webpack_react) - 1708 commits, 23+ contributors, 206 closed issues, 634 stars, 110 forks
-* [Twitter](https://twitter.com/survivejs) - 700+ followers
+* [GitHub](https://github.com/survivejs/webpack_react) - 1708 commits, 23+ contributors, 200+ closed issues, 700+ stars, 100+ forks
+* [Twitter](https://twitter.com/survivejs) - 750+ followers
 * [Leanpub](https://leanpub.com/survivejs_webpack_react) - 600+ readers, featured 4 times, amongst weekly bestsellers
-* MailChimp - ~200 subscribers
+* MailChimp - 200+ subscribers
 * Guest posts
           `}
             </Markdown>
@@ -331,14 +331,19 @@ export default class Slides extends React.Component {
             </Heading>
             <Markdown>
           {`
-* [Alexa](http://www.alexa.com/siteinfo/survivejs.com) - Top 300k
-* [SimilarWeb](http://www.similarweb.com/website/survivejs.com) - Estimated traffic, 60k+ visits per month
+* [Alexa](http://www.alexa.com/siteinfo/survivejs.com) - Top ~250k
+* [SimilarWeb](http://www.similarweb.com/website/survivejs.com) - Estimated traffic, 70k+ visits per month
 * Estimated PageRank: 3 - Aiming for 4
 * [Blog](http://survivejs.com/blog/) - 20+ posts, 9 interviews
 * [Gitter](https://gitter.im/survivejs/webpack_react) - ~140 people
-* [Reactiflux](http://www.reactiflux.com/) - Thousands of people
           `}
             </Markdown>
+          </Slide>
+
+          <Slide transition={slideTransition} bgColor="black" notes="">
+            <Link href="http://www.reactindiebundle.com/">
+              <Image src={images.indieBundle.replace("/", "")} margin="0px auto 40px" height="600px"/>
+            </Link>
           </Slide>
 
           <Slide transition={slideTransition} bgColor="primary">
@@ -359,7 +364,7 @@ export default class Slides extends React.Component {
 * Hit $1k around July &#8594; [Crisis of faith](http://survivejs.com/blog/the-story-so-far/)
 * Currently sales hover around $100 per day
 * Gradually raised price level to $19.99 per book
-* $10k total sales in sight. Not much but not little either.
+* $10k total sales reached in December
           `}
             </Markdown>
           </Slide>
@@ -493,12 +498,6 @@ export default class Slides extends React.Component {
             <Heading size={1} fit>
               Antwar 1.0
             </Heading>
-          </Slide>
-
-          <Slide transition={slideTransition} bgColor="black" notes="">
-            <Link href="http://www.reactindiebundle.com/">
-              <Image src={images.indieBundle.replace("/", "")} margin="0px auto 40px" height="600px"/>
-            </Link>
           </Slide>
 
           <Slide transition={slideTransition} bgColor="primary">
