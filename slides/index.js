@@ -318,8 +318,8 @@ export default class Slides extends React.Component {
           {`
 * [GitHub](https://github.com/survivejs/webpack_react) - 1708 commits, 23+ contributors, 200+ closed issues, 700+ stars, 100+ forks
 * [Twitter](https://twitter.com/survivejs) - 750+ followers
-* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 600+ readers, featured 4 times, amongst weekly bestsellers
-* MailChimp - 200+ subscribers
+* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 800+ readers, featured 5 times, amongst weekly bestsellers
+* MailChimp - 500+ subscribers
 * Guest posts
           `}
             </Markdown>
