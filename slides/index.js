@@ -270,7 +270,7 @@ export default class Slides extends React.Component {
           {`
 * Modeled after open source software development
 * Fast, light releases (weekly first, monthly now)
-* 1.0.0, 1.1.0, ..., 1.9.7, 1.9.10
+* 1.0.0, 1.1.0, ..., 1.9.10, 1.9.15
 * Release notes through the blog
 * Continuous improvement based on feedback
           `}
@@ -289,8 +289,8 @@ export default class Slides extends React.Component {
           {`
 * Higher quality than I could have ever reached on my own
 * 223+ pages, 42k+ words, 15 chapters
-* 600+ readers at Leanpub
-* Thousands outside (60k+ visitors per month)
+* 800+ readers at Leanpub
+* Thousands outside (80k+ visitors per month)
 * Tens of contributors (GitHub issues, Disqus, direct feedback, Gitter, ...)
           `}
             </Markdown>
@@ -316,9 +316,9 @@ export default class Slides extends React.Component {
             </Heading>
             <Markdown>
           {`
-* [GitHub](https://github.com/survivejs/webpack_react) - 1708 commits, 23+ contributors, 200+ closed issues, 700+ stars, 100+ forks
-* [Twitter](https://twitter.com/survivejs) - 750+ followers
-* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 800+ readers, featured 5 times, amongst weekly bestsellers
+* [GitHub](https://github.com/survivejs/webpack_react) - 1700+ commits, 23+ contributors, 200+ closed issues, 700+ stars, 100+ forks
+* [Twitter](https://twitter.com/survivejs) - 800+ followers
+* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 800+ readers, featured 5+ times, amongst weekly bestsellers
 * MailChimp - 500+ subscribers
 * Guest posts
           `}
