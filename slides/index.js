@@ -270,7 +270,7 @@ export default class Slides extends React.Component {
           {`
 * Modeled after open source software development
 * Fast, light releases (weekly first, monthly now)
-* 1.0.0, 1.1.0, ..., 1.9.10, 1.9.15
+* 1.0.0, 1.1.0, ..., 2.0.0-rc2, 2.0.0-rc3
 * Release notes through the blog
 * Continuous improvement based on feedback
           `}
@@ -288,9 +288,9 @@ export default class Slides extends React.Component {
             <Markdown>
           {`
 * Higher quality than I could have ever reached on my own
-* 223+ pages, 42k+ words, 15 chapters
-* 800+ readers at Leanpub
-* Thousands outside (80k+ visitors per month)
+* 260+ pages, 50k+ words, 15 chapters
+* 1000+ readers at Leanpub
+* Thousands outside (95k+ visitors per month)
 * Tens of contributors (GitHub issues, Disqus, direct feedback, Gitter, ...)
           `}
             </Markdown>
@@ -316,10 +316,10 @@ export default class Slides extends React.Component {
             </Heading>
             <Markdown>
           {`
-* [GitHub](https://github.com/survivejs/webpack_react) - 1700+ commits, 23+ contributors, 200+ closed issues, 700+ stars, 100+ forks
-* [Twitter](https://twitter.com/survivejs) - 800+ followers
-* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 800+ readers, featured 5+ times, amongst weekly bestsellers
-* MailChimp - 500+ subscribers
+* [GitHub](https://github.com/survivejs/webpack_react) - 2000+ commits, 31+ contributors, 240+ closed issues, 800+ stars, 150+ forks
+* [Twitter](https://twitter.com/survivejs) - 900+ followers
+* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 1000+ readers, featured 5+ times, amongst weekly bestsellers
+* MailChimp - 600+ subscribers
 * Guest posts
           `}
             </Markdown>
@@ -332,10 +332,10 @@ export default class Slides extends React.Component {
             <Markdown>
           {`
 * [Alexa](http://www.alexa.com/siteinfo/survivejs.com) - Top ~250k
-* [SimilarWeb](http://www.similarweb.com/website/survivejs.com) - Estimated traffic, 70k+ visits per month
+* [SimilarWeb](http://www.similarweb.com/website/survivejs.com) - Estimated traffic, 95k+ visits per month
 * Estimated PageRank: 3 - Aiming for 4
-* [Blog](http://survivejs.com/blog/) - 20+ posts, 9 interviews
-* [Gitter](https://gitter.im/survivejs/webpack_react) - ~140 people
+* [Blog](http://survivejs.com/blog/) - 30+ posts, 10+ interviews
+* [Gitter](https://gitter.im/survivejs/webpack_react) - 180+ people
           `}
             </Markdown>
           </Slide>
@@ -354,7 +354,7 @@ export default class Slides extends React.Component {
 
           <Slide transition={slideTransition} bgColor="tertiary">
             <Heading caps fit size={1} textColor="primary">
-              From Zero to $10k
+              From Zero to $20k
             </Heading>
             <Markdown>
           {`
@@ -364,7 +364,7 @@ export default class Slides extends React.Component {
 * Hit $1k around July &#8594; [Crisis of faith](http://survivejs.com/blog/the-story-so-far/)
 * Currently sales hover around $100 per day
 * Gradually raised price level to $19.99 per book
-* $10k total sales reached in December
+* $20k total sales reached in January
           `}
             </Markdown>
           </Slide>
