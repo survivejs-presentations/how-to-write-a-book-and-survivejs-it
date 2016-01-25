@@ -14,7 +14,8 @@ Presentation slides based on [Spectacle](https://github.com/FormidableLabs/spect
 webpack built e851af88b3c72fd66bfe in 5766ms
    ```
 
-7. Open a browser and access the URL above.
+7. Open an internet browser
+8. Copy the the URL above and paste it in the address field to open it.
 
 ## License
 
