@@ -104,7 +104,7 @@ export default class Slides extends React.Component {
             </Layout>
             <Layout>
               <Text>
-                <Link href="http://www.indeed.com/jobanalytics/jobtrends?q=frontend%2C+backend%2C+full+stack&l=">Indeed</Link>
+                <Link href="http://www.indeed.com/jobtrends?q=frontend%2C+backend%2C+full+stack&l=">Indeed</Link>
               </Text>
             </Layout>
           </Slide>
