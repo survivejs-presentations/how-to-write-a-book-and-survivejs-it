@@ -7,7 +7,7 @@ import {
 
 import preloader from "src/utils/preloader";
 
-const slideTransition = ['spin', 'zoom'];
+const slideTransition = ['slide'];
 const images = {
   javascript: require("assets/javascript.jpg"),
   javascript2: require("assets/javascript2.jpg"),
@@ -136,7 +136,7 @@ export default class Slides extends React.Component {
           </Slide>
 
           <Slide transition={slideTransition} bgColor="white" notes="">
-            <Image src={images.logo.replace("/", "")} margin="0px auto 40px" height="566px"/>
+            <Image src={images.logo.replace("/", "")} margin="0px auto 40px" height="524px"/>
           </Slide>
 
           <Slide transition={slideTransition} bgColor="primary">
@@ -238,7 +238,7 @@ export default class Slides extends React.Component {
 * Supports "pay what you want"
 * Doesn't give direct access to your client information :(
 * Decent starting point, though
-* Alternatives: [Gumroad](https://gumroad.com/), [DPD](https://getdpd.com/), [Amazon](http://www.amazon.com/), [iBooks](https://www.apple.com/ibooks/), [Lulu](https://www.lulu.com/)
+* Alternatives: [Gumroad](https://gumroad.com/), [DPD](https://getdpd.com/), [Createspace](https://www.createspace.com/), [iBooks](https://www.apple.com/ibooks/), [Lulu](https://www.lulu.com/)
     `}
             </Markdown>
           </Slide>
@@ -270,7 +270,7 @@ export default class Slides extends React.Component {
           {`
 * Modeled after open source software development
 * Fast, light releases (weekly first, monthly now)
-* 1.0.0, 1.1.0, ..., 2.0.0-rc2, 2.0.0-rc3
+* 1.0.0, 1.1.0, ..., 2.0.0-rc4, 2.0.0
 * Release notes through the blog
 * Continuous improvement based on feedback
           `}
@@ -288,9 +288,9 @@ export default class Slides extends React.Component {
             <Markdown>
           {`
 * Higher quality than I could have ever reached on my own
-* 260+ pages, 50k+ words, 15 chapters
+* 280+ pages, 50k+ words, 15+ chapters
 * 1000+ readers at Leanpub
-* Thousands outside (95k+ visitors per month)
+* Thousands outside (100k+ visitors per month)
 * Tens of contributors (GitHub issues, Disqus, direct feedback, Gitter, ...)
           `}
             </Markdown>
@@ -317,8 +317,8 @@ export default class Slides extends React.Component {
             <Markdown>
           {`
 * [GitHub](https://github.com/survivejs/webpack_react) - 2000+ commits, 31+ contributors, 240+ closed issues, 800+ stars, 150+ forks
-* [Twitter](https://twitter.com/survivejs) - 900+ followers
-* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 1000+ readers, featured 5+ times, amongst weekly bestsellers
+* [Twitter](https://twitter.com/survivejs) - 1100+ followers
+* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 1200+ readers, featured 5+ times, amongst weekly bestsellers
 * MailChimp - 600+ subscribers
 * Guest posts
           `}
@@ -335,7 +335,7 @@ export default class Slides extends React.Component {
 * [SimilarWeb](http://www.similarweb.com/website/survivejs.com) - Estimated traffic, 95k+ visits per month
 * Estimated PageRank: 3 - Aiming for 4
 * [Blog](http://survivejs.com/blog/) - 30+ posts, 10+ interviews
-* [Gitter](https://gitter.im/survivejs/webpack_react) - 180+ people
+* [Gitter](https://gitter.im/survivejs/webpack_react) - 220+ people
           `}
             </Markdown>
           </Slide>
@@ -361,10 +361,11 @@ export default class Slides extends React.Component {
 * Started selling at April
 * First, free "sale" on 11th
 * First paid one on 12th, $8.5
-* Hit $1k around July &#8594; [Crisis of faith](http://survivejs.com/blog/the-story-so-far/)
+* July - 1.0 released, hit $1k &#8594; [Crisis of faith](http://survivejs.com/blog/the-story-so-far/)
 * Currently sales hover around $100 per day
 * Gradually raised price level to $19.99 per book
 * $20k total sales reached in January
+* 2.0 released in February - [Paper version](http://www.amazon.com/SurviveJS-Webpack-React-apprentice-master/dp/152391050X)
           `}
             </Markdown>
           </Slide>
