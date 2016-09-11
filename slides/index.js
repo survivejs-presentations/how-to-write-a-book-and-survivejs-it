@@ -50,6 +50,7 @@ export default class Slides extends React.Component {
 * 2011 - 38.2%
 * 2013 - 60.4%
 * 2015 - 70.5%
+* 2016 - 73.5%
 * Source: [W3Techs](http://w3techs.com/technologies/history_overview/javascript_library/all/y)
           `}
             </Markdown>
@@ -89,7 +90,7 @@ export default class Slides extends React.Component {
             </Layout>
             <Layout>
               <Text>
-                <Link href="http://www.indeed.com/jobtrends?q=Angularjs%2C+React.js%2C+Knockout%2C+Backbone.js&l=">Indeed</Link>
+                <Link href="http://www.indeed.com/jobtrends/q-React.js-q-Knockout-q-Backbone.js-q-Angularjs.html">Indeed</Link>
               </Text>
             </Layout>
           </Slide>
@@ -104,7 +105,7 @@ export default class Slides extends React.Component {
             </Layout>
             <Layout>
               <Text>
-                <Link href="http://www.indeed.com/jobtrends?q=frontend%2C+backend%2C+full+stack&l=">Indeed</Link>
+                <Link href="http://www.indeed.com/jobtrends/q-backend-q-frontend-q-full-stack.html">Indeed</Link>
               </Text>
             </Layout>
           </Slide>
@@ -270,7 +271,7 @@ export default class Slides extends React.Component {
           {`
 * Modeled after open source software development
 * Fast, light releases (weekly first, monthly now)
-* 1.0.0, 1.1.0, ..., 2.0.0-rc4, 2.0.0
+* 1.0.0, 1.1.0, ..., 2.0.0-rc4, 2.0.0, 2.1.0, ..., 2.5.0
 * Release notes through the blog
 * Continuous improvement based on feedback
           `}
@@ -288,10 +289,11 @@ export default class Slides extends React.Component {
             <Markdown>
           {`
 * Higher quality than I could have ever reached on my own
-* 280+ pages, 50k+ words, 15+ chapters
-* 1000+ readers at Leanpub
-* Thousands outside (100k+ visitors per month)
+* 210+ pages, 39k+ words, 15+ chapters
+* 2000+ readers at Leanpub
+* Thousands outside (200k+ visitors per month)
 * Tens of contributors (GitHub issues, Disqus, direct feedback, Gitter, ...)
+* Split to two books (one for React, one for Webpack)
           `}
             </Markdown>
           </Slide>
@@ -316,10 +318,10 @@ export default class Slides extends React.Component {
             </Heading>
             <Markdown>
           {`
-* [GitHub](https://github.com/survivejs/webpack_react) - 2000+ commits, 31+ contributors, 240+ closed issues, 800+ stars, 150+ forks
-* [Twitter](https://twitter.com/survivejs) - 1100+ followers
-* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 1200+ readers, featured 5+ times, amongst weekly bestsellers
-* MailChimp - 600+ subscribers
+* [GitHub](https://github.com/survivejs/react) - 2500+ commits, 46+ contributors, 290+ closed issues, 1400+ stars, 330+ forks
+* [Twitter](https://twitter.com/survivejs) - 2400+ followers
+* [Leanpub](https://leanpub.com/survivejs_webpack_react) - 3000+ readers (both combined), featured 5+ times, amongst weekly bestsellers
+* MailChimp - 1000+ subscribers
 * Guest posts
           `}
             </Markdown>
@@ -331,11 +333,10 @@ export default class Slides extends React.Component {
             </Heading>
             <Markdown>
           {`
-* [Alexa](http://www.alexa.com/siteinfo/survivejs.com) - Top ~250k
-* [SimilarWeb](http://www.similarweb.com/website/survivejs.com) - Estimated traffic, 95k+ visits per month
-* Estimated PageRank: 3 - Aiming for 4
-* [Blog](http://survivejs.com/blog/) - 30+ posts, 10+ interviews
-* [Gitter](https://gitter.im/survivejs/webpack_react) - 220+ people
+* [Alexa](http://www.alexa.com/siteinfo/survivejs.com) - Top ~100k
+* [SimilarWeb](http://www.similarweb.com/website/survivejs.com) - Estimated traffic, 200k+ visits per month
+* [Blog](http://survivejs.com/blog/) - 60+ posts, 30+ interviews
+* [Gitter](https://gitter.im/survivejs/react) - 440+ people
           `}
             </Markdown>
           </Slide>
@@ -354,17 +355,17 @@ export default class Slides extends React.Component {
 
           <Slide transition={slideTransition} bgColor="tertiary">
             <Heading caps fit size={1} textColor="primary">
-              From Zero to $20k
+              From Zero to $50k
             </Heading>
             <Markdown>
           {`
-* Started selling at April
+* Started selling at April (2015)
 * First, free "sale" on 11th
 * First paid one on 12th, $8.5
 * July - 1.0 released, hit $1k &#8594; [Crisis of faith](http://survivejs.com/blog/the-story-so-far/)
-* Currently sales hover around $100 per day
+* Currently sales hover around $100-200 per day
 * Gradually raised price level to $19.99 per book
-* $20k total sales reached in January
+* $20k total sales reached in January (2016)
 * 2.0 released in February - [Paper version](http://www.amazon.com/SurviveJS-Webpack-React-apprentice-master/dp/152391050X)
           `}
             </Markdown>
@@ -473,7 +474,7 @@ export default class Slides extends React.Component {
 
           <Slide transition={slideTransition} bgColor="secondary">
             <Heading size={1} fit>
-              Amazon (CreateSpace), iBooks, ???
+              Wider distribution
             </Heading>
           </Slide>
 
@@ -485,7 +486,13 @@ export default class Slides extends React.Component {
 
           <Slide transition={slideTransition} bgColor="secondary">
             <Heading size={1} fit>
-              Webpack/React Cookbook Reimagined
+              More books
+            </Heading>
+          </Slide>
+
+          <Slide transition={slideTransition} bgColor="secondary">
+            <Heading size={1} fit>
+              Better service
             </Heading>
           </Slide>
 
