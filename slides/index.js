@@ -309,7 +309,7 @@ export default class Slides extends React.Component {
               width="135%"
               height="750px"
               style={{transform: 'scale(0.75, 0.75)', transformOrigin: 'top left'}}
-              src="https://www.survivejs.com"/>
+              src="//www.survivejs.com"/>
           </Slide>
 
           <Slide transition={slideTransition} bgColor="tertiary">
